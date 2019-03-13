@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="42993a33-ca39-4e0c-8546-7d3afbfeb535" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/hero/architecture-building-high-rise-137604.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/style/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/style.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,19 +16,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
+        <entry file="file://$PROJECT_DIR$/style/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="31" column="25" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
+            <state relative-caret-position="138">
+              <caret line="88" column="2" selection-start-line="88" selection-start-column="2" selection-end-line="88" selection-end-column="2" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/style/style.css">
+        <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="41" column="31" selection-start-line="41" selection-start-column="31" selection-end-line="41" selection-end-column="31" />
+            <state relative-caret-position="206">
+              <caret line="36" column="54" selection-start-line="36" selection-start-column="54" selection-end-line="36" selection-end-column="54" />
             </state>
           </provider>
         </entry>
@@ -62,8 +64,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/style/custom.js" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/style/style.css" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -78,34 +80,29 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="portfolio2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="portfolio2" type="462c0819:PsiDirectoryNode" />
+              <item name="portfolio" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="portfolio2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="portfolio2" type="462c0819:PsiDirectoryNode" />
+              <item name="portfolio" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="portfolio2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="portfolio2" type="462c0819:PsiDirectoryNode" />
+              <item name="portfolio" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
               <item name="hero" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="portfolio2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="portfolio2" type="462c0819:PsiDirectoryNode" />
-              <item name="style" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -151,7 +148,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29396000" />
+    <option name="totallyTimeSpent" value="32081000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -163,10 +160,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="1294" height="1047" extended-state="0" />
+    <frame x="0" y="23" width="1280" height="713" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20097245" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20355412" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
@@ -180,7 +177,7 @@
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32930845" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32822758" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.20787746" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32850242" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="right" id="SciView" order="0" />
       <window_info anchor="right" id="Commander" order="1" weight="0.4" />
@@ -197,75 +194,31 @@
     <entry file="file://$PROJECT_DIR$/style/debug.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/Homes/Bay Street/bay_street_home_sf_winder_gibson_01.1000x0.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/static/Homes/Bay Street/bay_street_home_sf_winder_gibson_01.1000x0.jpg" />
     <entry file="file://$PROJECT_DIR$/.babelrc">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/Homes/cole/modern-architecture-residential-windows-urban-infill-house-winder-gibson-design.1000x0.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/Homes/cole/modern-architecture-residential-stairs-urban-infill-house-winder-gibson-design.1000x0.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/Homes/cole/modern-architecture-residential-loft-urban-infill-house-winder-gibson-design.1000x0.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/Homes/dolores/29.1000x0.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/Homes/dolores/50.1000x0.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/Homes/dolores/92.1000x0.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/Homes/dolores/23.1000x0.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/Homes/dolores/22.1000x0.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/Homes/dolores/6_5.1000x0.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/Homes/dolores/6_8.1000x0.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/Homes/dolores/6_9.1000x0.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/Homes/dolores/6_91.1000x0.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/Homes/dolores/11.1000x0.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/Homes/dolores/13.1000x0.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/Homes/dolores/14_5.1000x0.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/Homes/dolores/15.1000x0.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/Homes/dolores/16.1000x0.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/Homes/dolores/18.1000x0.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/Homes/dolores/21.1000x0.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/Homes/Eureka/eureka_valley_home_sf_winder_gibson_04.1000x0.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/Homes/pacific heights/traditional-architecture-residential-stairs-pacific-heights-winder-gibson-design.1000x0.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/static/Homes/cole/modern-architecture-residential-windows-urban-infill-house-winder-gibson-design.1000x0.jpg" />
+    <entry file="file://$PROJECT_DIR$/static/Homes/cole/modern-architecture-residential-stairs-urban-infill-house-winder-gibson-design.1000x0.jpg" />
+    <entry file="file://$PROJECT_DIR$/static/Homes/cole/modern-architecture-residential-loft-urban-infill-house-winder-gibson-design.1000x0.jpg" />
+    <entry file="file://$PROJECT_DIR$/static/Homes/dolores/29.1000x0.jpg" />
+    <entry file="file://$PROJECT_DIR$/static/Homes/dolores/50.1000x0.jpg" />
+    <entry file="file://$PROJECT_DIR$/static/Homes/dolores/92.1000x0.jpg" />
+    <entry file="file://$PROJECT_DIR$/static/Homes/dolores/23.1000x0.jpg" />
+    <entry file="file://$PROJECT_DIR$/static/Homes/dolores/22.1000x0.jpg" />
+    <entry file="file://$PROJECT_DIR$/static/Homes/dolores/6_5.1000x0.jpg" />
+    <entry file="file://$PROJECT_DIR$/static/Homes/dolores/6_8.1000x0.jpg" />
+    <entry file="file://$PROJECT_DIR$/static/Homes/dolores/6_9.1000x0.jpg" />
+    <entry file="file://$PROJECT_DIR$/static/Homes/dolores/6_91.1000x0.jpg" />
+    <entry file="file://$PROJECT_DIR$/static/Homes/dolores/11.1000x0.jpg" />
+    <entry file="file://$PROJECT_DIR$/static/Homes/dolores/13.1000x0.jpg" />
+    <entry file="file://$PROJECT_DIR$/static/Homes/dolores/14_5.1000x0.jpg" />
+    <entry file="file://$PROJECT_DIR$/static/Homes/dolores/15.1000x0.jpg" />
+    <entry file="file://$PROJECT_DIR$/static/Homes/dolores/16.1000x0.jpg" />
+    <entry file="file://$PROJECT_DIR$/static/Homes/dolores/18.1000x0.jpg" />
+    <entry file="file://$PROJECT_DIR$/static/Homes/dolores/21.1000x0.jpg" />
+    <entry file="file://$PROJECT_DIR$/static/Homes/Eureka/eureka_valley_home_sf_winder_gibson_04.1000x0.jpg" />
+    <entry file="file://$PROJECT_DIR$/static/Homes/pacific heights/traditional-architecture-residential-stairs-pacific-heights-winder-gibson-design.1000x0.jpg" />
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider editor-type-id="text-editor" />
     </entry>
@@ -286,56 +239,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/Homes/Bay Street/bay_street_home_sf_winder_gibson_02.1000x0.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/Homes/cole/modern-architecture-residential-ceiling-urban-infill-house-winder-gibson-design.1000x0.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/Homes/cole/modern-architecture-residentia-details-urban-infill-house-winder-gibson-design.1000x0.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/Homes/cole/modern-architecture-residential-front-facade-urban-infill-house-winder-gibson-design.1000x0.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/Homes/dolores/5.1000x0.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/Homes/cole/modern-architecture-residential-deck-urban-infill-house-winder-gibson-design.1000x0.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/Homes/dolores/1.1000x0.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/Homes/Greenwhich/11.1000x0.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/Homes/market street/modern-architecture-residential-living-room-loft-market-street-penthouse-winder-gibson-design.1000x0.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/Homes/market street/modern-architecture-residential-living-room-market-street-penthouse-winder-gibson-design.1000x0.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/Homes/market street/modern-architecture-residential-living-room-chair-market-street-penthouse-winder-gibson-design.1000x0.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/Homes/willow glen/contemporary_architecture_residential_rear_facade_willow_glen_sf_winder_gibson.1000x0.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/style/custom.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="632">
-          <caret line="32" column="21" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="31" column="25" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/static/Homes/Bay Street/bay_street_home_sf_winder_gibson_02.1000x0.jpg" />
+    <entry file="file://$PROJECT_DIR$/static/Homes/cole/modern-architecture-residential-ceiling-urban-infill-house-winder-gibson-design.1000x0.jpg" />
+    <entry file="file://$PROJECT_DIR$/static/Homes/cole/modern-architecture-residentia-details-urban-infill-house-winder-gibson-design.1000x0.jpg" />
+    <entry file="file://$PROJECT_DIR$/static/Homes/cole/modern-architecture-residential-front-facade-urban-infill-house-winder-gibson-design.1000x0.jpg" />
+    <entry file="file://$PROJECT_DIR$/static/Homes/dolores/5.1000x0.jpg" />
+    <entry file="file://$PROJECT_DIR$/static/Homes/cole/modern-architecture-residential-deck-urban-infill-house-winder-gibson-design.1000x0.jpg" />
+    <entry file="file://$PROJECT_DIR$/static/Homes/dolores/1.1000x0.jpg" />
+    <entry file="file://$PROJECT_DIR$/static/Homes/Greenwhich/11.1000x0.jpg" />
+    <entry file="file://$PROJECT_DIR$/static/Homes/market street/modern-architecture-residential-living-room-loft-market-street-penthouse-winder-gibson-design.1000x0.jpg" />
+    <entry file="file://$PROJECT_DIR$/static/Homes/market street/modern-architecture-residential-living-room-market-street-penthouse-winder-gibson-design.1000x0.jpg" />
+    <entry file="file://$PROJECT_DIR$/static/Homes/market street/modern-architecture-residential-living-room-chair-market-street-penthouse-winder-gibson-design.1000x0.jpg" />
+    <entry file="file://$PROJECT_DIR$/static/Homes/willow glen/contemporary_architecture_residential_rear_facade_willow_glen_sf_winder_gibson.1000x0.jpg" />
     <entry file="file://$PROJECT_DIR$/style/helper.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
@@ -343,10 +258,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/style/custom.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="45" column="51" selection-start-line="45" selection-start-column="51" selection-end-line="45" selection-end-column="51" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/style/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="41" column="31" selection-start-line="41" selection-start-column="31" selection-end-line="41" selection-end-column="31" />
+        <state relative-caret-position="138">
+          <caret line="88" column="2" selection-start-line="88" selection-start-column="2" selection-end-line="88" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="36" column="54" selection-start-line="36" selection-start-column="54" selection-end-line="36" selection-end-column="54" />
         </state>
       </provider>
     </entry>
