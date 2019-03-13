@@ -2,6 +2,9 @@
 .fullheight {
 	height: 100vh
 }
+.is-marginless {
+	margin: unset;
+}
 .has-depth {
     display: inline-block;
     height: 40px;
@@ -17,6 +20,15 @@
     transform: translateY(-1px);
     box-shadow: 0 7px 14px rgba(50,50,93,.1), 0 3px 6px rgba(0,0,0,.08);
 }
+/*Media queries for general use*/
+	/*Hides desktop elements when under 1281px wide */
+@media (max-width: 1280px) {.is-desktop {display: none!important;}}
+
+	/*Hides mobile elements when over 1280px wide */
+@media (min-width: 1281px) {.is-mobile {display: none!important;}}
+
+
+
 
 /*Hero Style*/
 	/*Animated gradient style*/
@@ -43,4 +55,12 @@
 		background-position: 0% 50%
 	}
 }
-
+.hero-image {
+	background-image: url('../static/hero/architecture-building-high-rise-137604.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	/*Flips image across x axis*/
+	-webkit-transform: scaleX(-1);
+	transform: scaleX(-1);
+}

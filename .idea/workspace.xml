@@ -2,8 +2,193 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="42993a33-ca39-4e0c-8546-7d3afbfeb535" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/custom.js" beforeDir="false" afterPath="$PROJECT_DIR$/style/custom.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/Bay Street/bay_street_home_sf_winder_gibson_01.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/Bay Street/bay_street_home_sf_winder_gibson_02.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/Bay Street/bay_street_home_sf_winder_gibson_03.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/Bay Street/bay_street_home_sf_winder_gibson_04.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/Bay Street/bay_street_home_sf_winder_gibson_05.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/Bay Street/bay_street_home_sf_winder_gibson_06.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/Bay Street/bay_street_home_sf_winder_gibson_07.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/Bay Street/bay_street_home_sf_winder_gibson_08.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/Bay Street/bay_street_home_sf_winder_gibson_09.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/Bay Street/bay_street_home_sf_winder_gibson_10.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/Bay Street/bay_street_home_sf_winder_gibson_11.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/Bay Street/bay_street_home_sf_winder_gibson_12.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/Bay Street/bay_street_home_sf_winder_gibson_13.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/Bay Street/bay_street_home_sf_winder_gibson_14.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/Bay Street/bay_street_home_sf_winder_gibson_15.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/Bay Street/bay_street_home_sf_winder_gibson_16.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/Bay Street/bay_street_home_sf_winder_gibson_17.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/Bay Street/bay_street_home_sf_winder_gibson_18.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/Bay Street/bay_street_home_sf_winder_gibson_19.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/Bay Street/bay_street_home_sf_winder_gibson_20.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/Bay Street/bay_street_home_sf_winder_gibson_21.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/Eureka/eureka_valley_home_sf_winder_gibson_02.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/Eureka/eureka_valley_home_sf_winder_gibson_03.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/Eureka/eureka_valley_home_sf_winder_gibson_04.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/Eureka/eureka_valley_home_sf_winder_gibson_05.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/Eureka/eureka_valley_home_sf_winder_gibson_06.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/Eureka/eureka_valley_home_sf_winder_gibson_07.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/Eureka/eureka_valley_home_sf_winder_gibson_08.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/Eureka/eureka_valley_home_sf_winder_gibson_09.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/Eureka/eureka_valley_home_sf_winder_gibson_10.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/Eureka/eureka_valley_home_sf_winder_gibson_11.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/Eureka/eureka_valley_home_sf_winder_gibson_13.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/Eureka/eureka_valley_home_sf_winder_gibson_14.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/Eureka/eureka_valley_home_sf_winder_gibson_17.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/Eureka/eureka_valley_home_sf_winder_gibson_18.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/Eureka/eureka_valley_home_sf_winder_gibson_20.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/Eureka/eureka_valley_home_sf_winder_gibson_22.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/Eureka/eureka_valley_home_sf_winder_gibson_23.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/Greenwhich/10.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/Greenwhich/11.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/Greenwhich/12.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/Greenwhich/13_0.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/Greenwhich/13_1.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/Greenwhich/13_2.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/Greenwhich/13_3.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/Greenwhich/14.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/Greenwhich/16.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/Greenwhich/2741_greenwich_v1_0031-1.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/Greenwhich/3.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/Greenwhich/30.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/Greenwhich/31_0.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/Greenwhich/31_1.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/Greenwhich/31_2.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/Greenwhich/33.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/Greenwhich/4.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/Greenwhich/40_0.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/Greenwhich/40_1.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/Greenwhich/41_1.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/Greenwhich/41_3.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/Greenwhich/5_1.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/Greenwhich/6.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/Greenwhich/7.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/Greenwhich/8_1.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/Greenwhich/8_2.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/Greenwhich/9_1.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/Greenwhich/9_5.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/Noe/10.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/Noe/11.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/Noe/2.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/Noe/20.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/Noe/3.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/Noe/30.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/Noe/4.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/Noe/5.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/Noe/6.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/Noe/7.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/Noe/8.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/Noe/9.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/Noe/twilights_10.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/cole/modern-architecture-residentia-details-urban-infill-house-winder-gibson-design.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/cole/modern-architecture-residential-ceiling-urban-infill-house-winder-gibson-design.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/cole/modern-architecture-residential-deck-urban-infill-house-winder-gibson-design.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/cole/modern-architecture-residential-front-facade-urban-infill-house-winder-gibson-design.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/cole/modern-architecture-residential-loft-urban-infill-house-winder-gibson-design.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/cole/modern-architecture-residential-stairs-urban-infill-house-winder-gibson-design.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/cole/modern-architecture-residential-windows-urban-infill-house-winder-gibson-design.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/dolores/1.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/dolores/11.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/dolores/13.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/dolores/14_5.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/dolores/15.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/dolores/16.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/dolores/18.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/dolores/21.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/dolores/22.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/dolores/23.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/dolores/25.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/dolores/27.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/dolores/29.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/dolores/30.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/dolores/31.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/dolores/5.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/dolores/50.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/dolores/51.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/dolores/6_5.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/dolores/6_8.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/dolores/6_9.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/dolores/6_91.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/dolores/90.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/dolores/91.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/dolores/92.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/dolores/93.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/dolores/95.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/dolores/96.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/dolores/97.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/dolores/98.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/dolores/99.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/market street/modern-architecture-residential-bathroom-market-street-penthouse-winder-gibson-design.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/market street/modern-architecture-residential-bathroom-sink-market-street-penthouse-winder-gibson-design.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/market street/modern-architecture-residential-bedroom-market-street-penthouse-winder-gibson-design.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/market street/modern-architecture-residential-den-market-street-penthouse-winder-gibson-design.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/market street/modern-architecture-residential-kitchen-market-street-penthouse-winder-gibson-design.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/market street/modern-architecture-residential-living-room-chair-market-street-penthouse-winder-gibson-design.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/market street/modern-architecture-residential-living-room-loft-1-market-street-penthouse-winder-gibson-design.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/market street/modern-architecture-residential-living-room-loft-market-street-penthouse-winder-gibson-design.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/market street/modern-architecture-residential-living-room-market-street-penthouse-winder-gibson-design.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/market street/modern-architecture-residential-pool-table-market-street-penthouse-winder-gibson-design.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/market street/modern-architecture-residential-stairs-market-street-penthouse-winder-gibson-design.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/market street/modern-architecture-residential-wet-bar-market-street-penthouse-winder-gibson-design.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/pacific heights/facade.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/pacific heights/traditional-architecture-residential-beautiful-kitchen-pacific-heights-winder-gibson-design.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/pacific heights/traditional-architecture-residential-bedroom-creme-pacific-heights-winder-gibson-design.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/pacific heights/traditional-architecture-residential-bedroom-purple-pacific-heights-winder-gibson-design.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/pacific heights/traditional-architecture-residential-dining-room-pacific-heights-winder-gibson-design.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/pacific heights/traditional-architecture-residential-living-room-fireplace-pacific-heights-winder-gibson-design.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/pacific heights/traditional-architecture-residential-living-room-grey-pacific-heights-winder-gibson-design.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/pacific heights/traditional-architecture-residential-living-room-orange-pacific-heights-winder-gibson-design.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/pacific heights/traditional-architecture-residential-living-room-wood-pacific-heights-winder-gibson-design.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/pacific heights/traditional-architecture-residential-office-pacific-heights-winder-gibson-design.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/pacific heights/traditional-architecture-residential-stairs-pacific-heights-winder-gibson-design.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/texas/312_texas_v1_2_0002.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/texas/312_texas_v1_2_0006.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/texas/312_texas_v1_2_0010.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/texas/312_texas_v1_2_0012.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/texas/312_texas_v1_2_0013.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/texas/312_texas_v1_2_0014.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/texas/312_texas_v1_2_0015.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/texas/312_texas_v1_2_0018.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/texas/312_texas_v1_2_0022.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/texas/312_texas_v1_2_0023.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/texas/312_texas_v1_2_0025.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/texas/312_texas_v1_2_0026.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/texas/312_texas_v1_2_0032.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/texas/312_texas_v1_2_0037.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/texas/312_texas_v1_2_0038.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/texas/312_texas_v1_2_0041.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/texas/312_texas_v2_0002.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/texas/312_texas_v2_0003.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/willow glen/contemporary_architecture_residential_bedroom_willow_glen_sf_winder_gibson.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/willow glen/contemporary_architecture_residential_ceiling_clerestory_willow_glen_sf_winder_gibson.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/willow glen/contemporary_architecture_residential_foyer_willow_glen_sf_winder_gibson.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/willow glen/contemporary_architecture_residential_front_facade_willow_glen_sf_winder_gibson.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/willow glen/contemporary_architecture_residential_glazing_glen_sf_winder_gibson.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/willow glen/contemporary_architecture_residential_grey_master_bathroom_willow_glen_sf_winder_gibson.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/willow glen/contemporary_architecture_residential_hanging_lights_willow_glen_sf_winder_gibson.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/willow glen/contemporary_architecture_residential_large_living_room_willow_glen_sf_winder_gibson.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/willow glen/contemporary_architecture_residential_large_window_glazing_willow_glen_sf_winder_gibson.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/willow glen/contemporary_architecture_residential_living_room_willow_glen_sf_winder_gibson.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/willow glen/contemporary_architecture_residential_master_bathroom_sink_willow_glen_sf_winder_gibson.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/willow glen/contemporary_architecture_residential_night_front_facade_willow_glen_sf_winder_gibson.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/willow glen/contemporary_architecture_residential_night_view_pool_willow_glen_sf_winder_gibson.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/willow glen/contemporary_architecture_residential_open_stair_treads_willow_glen_sf_winder_gibson.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/willow glen/contemporary_architecture_residential_open_wood_staircase_willow_glen_sf_winder_gibson.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/willow glen/contemporary_architecture_residential_pool_patio_glen_sf_winder_gibson.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/willow glen/contemporary_architecture_residential_rear_facade_willow_glen_sf_winder_gibson.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/willow glen/contemporary_architecture_residential_rear_yard_willow_glen_sf_winder_gibson.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/willow glen/contemporary_architecture_residential_tiled_patio_glen_sf_winder_gibson.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/willow glen/contemporary_architecture_residential_wood_beam_kitchen_willow_glen_sf_winder_gibson.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/willow glen/contemporary_architecture_residential_wood_counter_sink_willow_glen_sf_winder_gibson.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Homes/willow glen/contemporary_architecture_residential_wood_post_kitchen_willow_glen_sf_winder_gibson.1000x0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/avatar/george.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/background/overlapping-hexagons.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/hero/480143_0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/hero/480963_4_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/videos/Hero homes.mp4" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/style/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/style.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,8 +202,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="20" selection-start-line="20" selection-end-line="22" selection-end-column="26" />
+            <state relative-caret-position="352">
+              <caret line="22" column="28" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -26,17 +211,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/style/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/style/custom.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="588">
-              <caret line="32" column="21" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
+            <state relative-caret-position="176">
+              <caret line="8" column="26" lean-forward="true" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -79,7 +255,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-7" />
-    <option name="width" value="1263" />
+    <option name="width" value="1294" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -98,6 +274,17 @@
             <path>
               <item name="portfolio2" type="b2602c69:ProjectViewProjectNode" />
               <item name="portfolio2" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="portfolio2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="portfolio2" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="hero" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="portfolio2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="portfolio2" type="462c0819:PsiDirectoryNode" />
               <item name="style" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -111,7 +298,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.completion" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -144,11 +331,13 @@
       <workItem from="1551827181031" duration="2669000" />
       <workItem from="1552286751961" duration="4191000" />
       <workItem from="1552367445862" duration="5335000" />
+      <workItem from="1552376904458" duration="104000" />
+      <workItem from="1552446687706" duration="3985000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18730000" />
+    <option name="totallyTimeSpent" value="22819000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -160,10 +349,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="1263" height="1047" extended-state="0" />
+    <frame x="-7" y="0" width="1294" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19950125" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20097245" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
@@ -326,24 +515,24 @@
     <entry file="file://$PROJECT_DIR$/static/Homes/willow glen/contemporary_architecture_residential_rear_facade_willow_glen_sf_winder_gibson.1000x0.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/style/style.css">
+    <entry file="file://$PROJECT_DIR$/style/custom.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+        <state relative-caret-position="632">
+          <caret line="32" column="21" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/style/custom.js">
+    <entry file="file://$PROJECT_DIR$/style/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="588">
-          <caret line="32" column="21" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
+        <state relative-caret-position="176">
+          <caret line="8" column="26" lean-forward="true" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="20" selection-start-line="20" selection-end-line="22" selection-end-column="26" />
+        <state relative-caret-position="352">
+          <caret line="22" column="28" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
         </state>
       </provider>
     </entry>
