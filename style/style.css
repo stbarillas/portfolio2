@@ -83,7 +83,7 @@
 	/*transform: scaleX(-1);*/
 }
     /*Down Icon style and animation*/
-#down-button {
+#down-button-mobile, #down-button-desktop {
     bottom: 10vh;
 }
 .bounce {
