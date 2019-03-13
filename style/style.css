@@ -1,9 +1,24 @@
+/*Universal Declarations*/
+* {
+	font-family: Montserrat;
+}
+
 /*Styles for general use*/
 .fullheight {
 	height: 100vh
 }
 .is-marginless {
 	margin: unset;
+}
+.is-widthless {
+	width: unset;
+}
+.is-vertically-centered {
+	position: absolute;
+    top: 50%;
+    -moz-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
 }
 .has-depth {
     display: inline-block;
@@ -22,38 +37,33 @@
 }
 /*Media queries for general use*/
 	/*Hides desktop elements when under 1281px wide */
-@media (max-width: 1280px) {.is-desktop {display: none!important;}}
+@media (max-width: 1280px) {
+	.is-desktop {display: none!important;}
+	h2, h3 {color: #4a4a4a}
+	h1 {font-size: 48px; font-weight: bolder; color: #363636}
+	h2 {font-size: 35px}
+	h3 {font-size: 20px}
+}
 
 	/*Hides mobile elements when over 1280px wide */
-@media (min-width: 1281px) {.is-mobile {display: none!important;}}
+@media (min-width: 1281px) {
+	.is-mobile {display: none!important;}
+	h2, h3 {color: #4a4a4a}
+	h1 {font-size: 48px; font-weight: bolder; color: #363636}
+	h2 {font-size: 40px; }
+	h3 {font-size: 20px}
+}
 
 
 
 
 /*Hero Style*/
-	/*Animated gradient style*/
-.gradient {
-    background-size: 500% 500%;
-    background-image: radial-gradient(circle, rgba(116, 78, 241, 100) 0%, rgba(68, 179, 194, 1) 80%);
-    animation: animate 20s infinite;
-    animation-fill-mode: forwards;
+	/*Intro Style*/
+#intro-desktop {
+	padding-left: 100px;
 }
-@keyframes animate {
-	0% {
-		background-position: 0% 50%
-	}
-	25% {
-		background-position: 50% 0%
-	}
-	50% {
-		background-position: 100% 50%
-	}
-	75% {
-		background-position: 50% 100%
-	}
-	100% {
-		background-position: 0% 50%
-	}
+#intro-mobile {
+	padding-left: 30px;
 }
 .hero-image {
 	background-image: url('../static/hero/architecture-building-high-rise-137604.jpg');
@@ -64,3 +74,4 @@
 	-webkit-transform: scaleX(-1);
 	transform: scaleX(-1);
 }
+
