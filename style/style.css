@@ -30,18 +30,17 @@
 
 .has-depth {
     display: inline-block;
-    height: 40px;
-    line-height: 40px;
-    padding: 0 14px;
+    /*line-height: 40px;*/
     box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08);
-    background: #fff;
     border-radius: 4px;
     transition: all .15s ease;
 }
 .has-depth:hover {
-    color: #5778F3;
     transform: translateY(-1px);
     box-shadow: 0 7px 14px rgba(50,50,93,.1), 0 3px 6px rgba(0,0,0,.08);
+}
+.is-round {
+    border-radius: 15px;
 }
 /*Media queries for general use*/
 	/*Hides desktop elements when under 1281px wide */
@@ -103,6 +102,6 @@
 
 
 /*Project Style*/
-.thumbnail{
-    height: 100%;
+#projects-section {
+    padding: 15px;
 }
