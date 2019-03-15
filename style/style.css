@@ -42,23 +42,31 @@
 .is-round {
     border-radius: 15px;
 }
+.is-underlined {
+    text-decoration: underline
+}
+
 /*Media queries for general use*/
 	/*Hides desktop elements when under 1281px wide */
 @media (max-width: 1280px) {
 	.is-desktop {display: none!important;}
-	h2, h3 {color: #4a4a4a}
+	h2, h3, h4, p1 {color: #4a4a4a}
 	h1 {font-size: 48px; font-weight: bolder; color: #363636}
 	h2 {font-size: 35px}
 	h3 {font-size: 20px}
+    h4 {font-size: 32px; font-weight: bolder;}
+    p1 {font-size: 16px}
 }
 
 	/*Hides mobile elements when over 1280px wide */
 @media (min-width: 1281px) {
 	.is-mobile {display: none!important;}
-	h2, h3 {color: #4a4a4a}
+	h2, h3, h4, p1 {color: #4a4a4a}
 	h1 {font-size: 48px; font-weight: bolder; color: #363636}
-	h2 {font-size: 40px; }
-	h3 {font-size: 20px}
+	h2 {font-size: 40px;}
+	h3 {font-size: 20px;}
+    h4 {font-size: 30px; font-weight: bolder; }
+    p1 {font-size: 14px;}
 }
 
 
