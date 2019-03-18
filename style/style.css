@@ -128,3 +128,29 @@
     max-height: 160px;
     margin: 10px;
 }
+/*Contact Me Style*/
+.is-icon {
+    background-color: black;
+    font-size: 70px;
+    color: white;
+    border-radius: 100%;
+
+}
+.linkedin {
+    background-color: #0077B5;
+    border: 10px solid #0077B5;
+}
+.twitter {
+    background-color: #1CA1F2;
+    border: 10px solid #1CA1F2;
+}
+.github {
+    background-color: #24292D;
+    border: 10px solid #24292D;
+}
+
+/*Footer Style*/
+#footer-section {
+    background: #FAFAFA;
+    padding: 30px;
+}
