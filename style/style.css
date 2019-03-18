@@ -2,10 +2,13 @@
 * {
 	font-family: Montserrat;
 }
+body {
+    overflow-x: hidden;
+}
 
 /*Styles for general use*/
 .fullheight {
-	height: 100vh
+	min-height: 100vh
 }
 .is-marginless {
 	margin: unset;
