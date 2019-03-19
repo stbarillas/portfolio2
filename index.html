@@ -11,7 +11,7 @@
         <link rel="stylesheet" href="style/helper.css">
         <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
         <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
-        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+        <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
         <link rel="stylesheet" href="style/style.css">
         <!--<link rel="stylesheet" href="style/debug.css">-->
     </head>
@@ -148,37 +148,39 @@
 
         <!--Contact Section-->
         <section class="fullheight">
-            <div id='contact-text' class='container has-text-centered'>
-                <h4 data-aos="fade-up" class="is-underlined">Contact</h4>
-                <div data-aos="fade-down-right" class="field">
-                    <p class="control has-icons-left">
-                    <input class="input is-medium" type="text" placeholder="Name">
-                    <span class="icon is-small is-left">
-                        <i class="fas fa-user"></i>
-                    </span>
+            <form id="myform" method="post">
+                <div id='contact-text' class='container has-text-centered'>
+                    <h4 data-aos="fade-up" class="is-underlined">Contact</h4>
+                        <div data-aos="fade-down-right" class="field">
+                            <p class="control has-icons-left">
+                            <input class="input is-medium" type="text" placeholder="Name" name="from_name">
+                            <span class="icon is-small is-left">
+                                <i class="fas fa-user"></i>
+                            </span>
+                            </p>
+                        </div>
+                        <div data-aos="fade-down-left" class="field">
+                            <p class="control has-icons-left">
+                                <input class="input is-medium" type="email" placeholder="Email" name="reply_to">
+                                <span class="icon is-small is-left">
+                                    <i class="fas fa-envelope"></i>
+                                </span>
+                            </p>
+                        </div>
+                        <div data-aos="fade-down-right" class="field">
+                            <p class="control has-icons-left">
+                                <textarea class="textarea is-medium" type="text" placeholder="Message" rows="5" name="message_html"></textarea>
+                            </p>
+                        </div>
+                </div>
+                <div data-aos="fade-up" class="field is-grouped is-grouped-centered">
+                    <p class="control">
+                        <button class="button is-primary">
+                            Submit
+                        </button>
                     </p>
                 </div>
-                <div data-aos="fade-down-left" class="field">
-                    <p class="control has-icons-left">
-                        <input class="input is-medium" type="email" placeholder="Email">
-                        <span class="icon is-small is-left">
-                            <i class="fas fa-envelope"></i>
-                        </span>
-                    </p>
-                </div>
-                <div data-aos="fade-down-right" class="field">
-                    <p class="control has-icons-left">
-                        <textarea class="textarea is-medium" type="text" placeholder="Message" rows="5"></textarea>
-                    </p>
-                </div>
-            </div>
-            <div data-aos="fade-up" class="field is-grouped is-grouped-centered">
-                <p class="control">
-                    <a class="button is-primary">
-                        Submit
-                    </a>
-                </p>
-            </div>
+            </form>
             <div class="has-text-centered">
                 <h3>Or</h3>
                 <h2 class="is-underlined"> Stalk me here:</h2>
@@ -207,6 +209,12 @@
         <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
         <script>
             AOS.init();
+        </script>
+        <script type="text/javascript" src="https://cdn.emailjs.com/sdk/2.3.2/email.min.js"></script>
+        <script type="text/javascript">
+            (function(){
+                emailjs.init("user_2198E1z3DhrJC1Nio5O8D");
+            })();
         </script>
     </body>
 </html>
