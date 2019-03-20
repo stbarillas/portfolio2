@@ -52,6 +52,10 @@ body {
     /*text-align: center*/
 /*}*/
 
+.is-margined {
+    margin: 50px 15px
+}
+
 /*Media queries for general use*/
 	/*Hides desktop elements when under 1281px wide */
 @media (max-width: 1280px) {
