@@ -30,6 +30,10 @@ body {
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
 }
+.is-centered {
+    display: flex;
+	justify-content: center;
+}
 
 .has-depth {
     display: inline-block;
@@ -122,6 +126,12 @@ body {
 /*Project Style*/
 #projects-section {
     padding: 15px;
+}
+.set-project-width {
+    max-width: 1600px;
+}
+.set-card-width {
+    max-width: 356px
 }
 
 /*About Me Style*/
