@@ -86,18 +86,22 @@ body {
 .transparent {
     background-color: transparent;
 }
+.apparent {
+    background-color: darkred;
+}
 .navbar-item {
     color: #FFFFFF;
     font-weight: bold;
 }
 .navbar-item:hover {
-    background: unset!important;
-    color: #ffaf24!important;
-
+    background: unset !important;
+    color: #ffaf24 !important;
 }
 .navbar-item.is-active {
     color: #ffd83d!important;
-    /*background: #FFFFFF!important;*/
+}
+.navbar-item.is-active span {
+    border-bottom: 2px solid #ffaf24;
 }
 
 

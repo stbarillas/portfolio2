@@ -31,7 +31,6 @@ for (var i = 0; i < btns.length; i++) {
 //Active scroll navbar activation
 const links = document.querySelectorAll('.navbar-item.header');
 const sections = document.querySelectorAll('section');
-console.log(links)
 
 function changeLinkState() {
   let index = sections.length;
