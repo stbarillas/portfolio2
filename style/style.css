@@ -37,7 +37,6 @@ body {
 
 .has-depth {
     display: inline-block;
-    /*line-height: 40px;*/
     box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08);
     border-radius: 4px;
     transition: all .15s ease;
@@ -52,9 +51,6 @@ body {
 .is-underlined {
     text-decoration: underline
 }
-/*.has-text-centered {*/
-    /*text-align: center*/
-/*}*/
 
 .is-margined {
     margin: 50px 15px
@@ -82,8 +78,27 @@ body {
     h4 {font-size: 30px; font-weight: bolder; }
     p1 {font-size: 14px;}
 }
+/*Navbar Style*/
+.fixed {
+    position: fixed;
+    width: 100vw;
+}
+.transparent {
+    background-color: transparent;
+}
+.navbar-item {
+    color: #FFFFFF;
+    font-weight: bold;
+}
+.navbar-item:hover {
+    background: unset!important;
+    color: #ffaf24!important;
 
-
+}
+.navbar-item.is-active {
+    color: #ffd83d!important;
+    /*background: #FFFFFF!important;*/
+}
 
 
 /*Hero Style*/
