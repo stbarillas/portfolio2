@@ -16,8 +16,34 @@
         <!--<link rel="stylesheet" href="style/debug.css">-->
     </head>
     <body>
+    <!--Navbar Section-->
+        <nav class="navbar">
+            <div class="container">
+                <div class="navbar-brand">
+                    <a class="navbar-item">
+                        <h1 class="header" id="nav-name">S/B</h1>
+                    </a>
+                </div>
+                <div class="navbar-menu">
+                    <div class="navbar-end">
+                        <a class="navbar-item header" onclick="scrollToHome()">
+                            Home
+                        </a>
+                        <a class="navbar-item header" onclick="scrollToProjects()">
+                            Portfolio
+                        </a>
+                        <a class="navbar-item header" onclick="scrollToAbout()">
+                            About
+                        </a>
+                        <a class="navbar-item header" onclick="scrollToContact()">
+                            Contact
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
     <!--Hero Section-->
-        <section class="hero is-fullheight">
+        <section id="home" class="hero is-fullheight">
                 <div class="columns fullheight is-desktop is-marginless is-gapless">
                     <div class="column fullheight">
                         <div id="intro-desktop" class="is-vertically-centered">
@@ -133,8 +159,8 @@
                 </div>
             </div>
         </section>
-        <!--About Section-->
-        <section class="is-margined">
+    <!--About Section-->
+        <section id="about" class="is-margined">
             <div id='about-text' class='container has-text-centered'>
                 <h4 data-aos="fade-up" class="is-underlined">About Me</h4>
                 <img data-aos="fade-up" id="avatar" src="static/avatar/Webp.net-resizeimage.png"><br>
@@ -146,7 +172,7 @@
         </section>
 
     <!--Contact Section-->
-        <section class="is-margined">
+        <section id="contact" class="is-margined">
             <form id="myform" method="post">
                 <div id='contact-text' class='container has-text-centered'>
                     <h4 data-aos="fade-up" class="is-underlined">Contact</h4>
@@ -216,5 +242,6 @@
                 emailjs.init("user_2198E1z3DhrJC1Nio5O8D");
             })();
         </script>
+        <script type="text/javascript" src="style/custom.js"></script>
     </body>
 </html>
