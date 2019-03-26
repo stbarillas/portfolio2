@@ -83,9 +83,8 @@ body {
     position: fixed;
     width: 100vw;
 }
-.transparent {
-    background-color: transparent;
-}
+.nav-colored { background-color:#000; }
+.nav-transparent { background-color:transparent;}
 .apparent {
     background-color: darkred;
 }
@@ -97,10 +96,12 @@ body {
     background: unset !important;
     color: #ffaf24 !important;
 }
-.navbar-item.is-active {
-    color: #ffd83d!important;
-}
 .navbar-item.is-active span {
+    color: #ffd83d!important;
+    border-bottom: 2px solid #ffaf24;
+}
+.navbar-item:hover span {
+    color: #ffd83d!important;
     border-bottom: 2px solid #ffaf24;
 }
 

@@ -44,6 +44,20 @@ function changeLinkState() {
 changeLinkState();
 window.addEventListener('scroll', changeLinkState);
 
+var myNav = document.getElementById('mynav');
+console.log(myNav)
+window.onscroll = function () {
+    "use strict";
+    if (document.body.scrollTop >= 50 ) {
+        myNav.classList.add("nav-colored");
+        myNav.classList.remove("nav-transparent");
+    }
+    else {
+        myNav.classList.add("nav-transparent");
+        myNav.classList.remove("nav-colored");
+    }
+};
+
 var myform = $("form#myform");
 myform.submit(function(event){
 	event.preventDefault();
