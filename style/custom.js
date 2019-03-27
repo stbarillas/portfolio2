@@ -46,13 +46,17 @@ window.addEventListener('scroll', changeLinkState);
 
 window.addEventListener('scroll', function (e) {
         const nav = document.getElementById('navbar');
-        const navitem = document.getElementById('navbar');
+        const navitem = document.getElementById('nav-name');
         if (window.scrollY >= window.innerHeight*.9) {
                 nav.classList.add('nav-colored');
                 nav.classList.remove('nav-transparent');
+                navitem.classList.add('is-white')
+                navitem.classList.remove('is-gray')
             } else {
                 nav.classList.add('nav-transparent');
                 nav.classList.remove('nav-colored');
+                navitem.classList.add('is-gray')
+                navitem.classList.remove('is-white')
             }
     });
 

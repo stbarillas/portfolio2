@@ -80,14 +80,21 @@ body {
     p1 {font-size: 14px;}
 }
 /*Navbar Style*/
+.navbar {
+    transition: all 1s;
+}
 .fixed {
     position: fixed;
     width: 100vw;
-    transition: all 1s;
 }
-.nav-colored { background-color: #4D525C; opacity: .95  }
+.nav-colored { background-color: #4D525C; opacity: .95;}
 
 .nav-transparent { background-color:transparent;}
+#nav-name{font-weight: bolder;}
+.is-gray {color: #363636; transition: all .25s;}
+.is-gray:hover {color: #FFFFFF;}
+.is-white {color: #FFFFFF; transition: all .25s;}
+.is-white:hover {color: #ffaf24}
 
 .navbar-item {
     color: #FFFFFF;
