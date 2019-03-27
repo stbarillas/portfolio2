@@ -47,7 +47,7 @@ window.addEventListener('scroll', changeLinkState);
 window.addEventListener('scroll', function (e) {
         const nav = document.getElementById('navbar');
         const navitem = document.getElementById('nav-name');
-        if (window.scrollY >= window.innerHeight*.9) {
+        if (window.scrollY >= window.innerHeight*.85) {
                 nav.classList.add('nav-colored');
                 nav.classList.remove('nav-transparent');
                 navitem.classList.add('is-white')
