@@ -44,19 +44,17 @@ function changeLinkState() {
 changeLinkState();
 window.addEventListener('scroll', changeLinkState);
 
-var myNav = document.getElementById('mynav');
-console.log(myNav)
-window.onscroll = function () {
-    "use strict";
-    if (document.body.scrollTop >= 50 ) {
-        myNav.classList.add("nav-colored");
-        myNav.classList.remove("nav-transparent");
-    }
-    else {
-        myNav.classList.add("nav-transparent");
-        myNav.classList.remove("nav-colored");
-    }
-};
+window.addEventListener('scroll', function (e) {
+        const nav = document.getElementById('navbar');
+        const navitem = document.getElementById('navbar');
+        if (window.scrollY >= window.innerHeight*.9) {
+                nav.classList.add('nav-colored');
+                nav.classList.remove('nav-transparent');
+            } else {
+                nav.classList.add('nav-transparent');
+                nav.classList.remove('nav-colored');
+            }
+    });
 
 var myform = $("form#myform");
 myform.submit(function(event){

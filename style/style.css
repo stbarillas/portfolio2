@@ -53,7 +53,8 @@ body {
 }
 
 .is-margined {
-    margin: 50px 15px
+    margin: 0px 15px;
+    padding-top: 100px;
 }
 
 /*Media queries for general use*/
@@ -82,12 +83,12 @@ body {
 .fixed {
     position: fixed;
     width: 100vw;
+    transition: all 1s;
 }
-.nav-colored { background-color:#000; }
+.nav-colored { background-color: #4D525C; opacity: .95  }
+
 .nav-transparent { background-color:transparent;}
-.apparent {
-    background-color: darkred;
-}
+
 .navbar-item {
     color: #FFFFFF;
     font-weight: bold;
@@ -145,7 +146,8 @@ body {
 
 /*Project Style*/
 #projects-section {
-    padding: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 .set-project-width {
     max-width: 1600px;
@@ -190,4 +192,5 @@ body {
 #footer-section {
     background: #FAFAFA;
     padding: 30px;
+    margin-top: 15px;
 }
