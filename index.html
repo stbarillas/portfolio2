@@ -179,10 +179,10 @@
         <section id="contact" class="is-margined">
             <form id="myform" method="post">
                 <div id='contact-text' class='container has-text-centered'>
-                    <h4 data-aos="fade-up" class="is-underlined">Contact</h4>
+                    <h4 data-aos="fade-up" class="is-underlined">Contact Me</h4>
                         <div data-aos="fade-down-right" class="field">
                             <p class="control has-icons-left">
-                            <input class="input is-medium" type="text" placeholder="Name" name="from_name">
+                            <input id='name' class="input is-medium" type="text" placeholder="Name" name="from_name">
                             <span class="icon is-small is-left">
                                 <i class="fas fa-user"></i>
                             </span>
@@ -190,7 +190,7 @@
                         </div>
                         <div data-aos="fade-down-left" class="field">
                             <p class="control has-icons-left">
-                                <input class="input is-medium" type="email" placeholder="Email" name="reply_to">
+                                <input id='email' class="input is-medium" type="email" placeholder="Email" name="reply_to">
                                 <span class="icon is-small is-left">
                                     <i class="fas fa-envelope"></i>
                                 </span>
@@ -198,16 +198,16 @@
                         </div>
                         <div data-aos="fade-down-right" class="field">
                             <p class="control has-icons-left">
-                                <textarea class="textarea is-medium" type="text" placeholder="Message" rows="5" name="message_html"></textarea>
+                                <textarea id='message' class="textarea is-medium" type="text" placeholder="Message" rows="5" name="message_html"></textarea>
                             </p>
                         </div>
                 </div>
                 <div data-aos="fade-up" class="field is-grouped is-grouped-centered">
-                    <p class="control">
-                        <button class="button is-primary">
+                    <div class="control">
+                        <button class="button is-submit has-depth">
                             Submit
                         </button>
-                    </p>
+                    </div>
                 </div>
             </form>
             <div class="has-text-centered">

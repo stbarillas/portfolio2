@@ -71,7 +71,7 @@ myform.submit(function(event){
   myform.find("button").text("Sending...");
   emailjs.sendForm(service_id,template_id,myform[0])
   	.then(function(){
-    	alert("Sent!");
+    	alert(" Message Sent!");
        myform.find("button").text("Send");
     }, function(err) {
        alert("Send email failed!\r\n Response:\n " + JSON.stringify(err));

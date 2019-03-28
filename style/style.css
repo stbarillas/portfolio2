@@ -194,6 +194,15 @@ body {
     background-color: #24292D;
     border: 10px solid #24292D;
 }
+.is-submit {
+    margin: 15px 0 ;
+    background: #ffaf24;
+    color: #4D525C;
+}
+/*.is-submit:hover {*/
+    /*background: #4D525C;*/
+    /*color: #ffaf24;*/
+/*}*/
 
 /*Footer Style*/
 #footer-section {
