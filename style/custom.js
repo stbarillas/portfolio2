@@ -15,20 +15,21 @@ function scrollToContact() {
     var x = document.getElementById("contact");
     x.scrollIntoView({behavior: 'smooth'});
 }
-// active navbar selection code
 
-var btns = document.getElementsByClassName("navbar-item header");
-
-// Loop through the buttons and add the active class to the current/clicked button
-for (var i = 0; i < btns.length; i++) {
-  btns[i].addEventListener("click", function() {
-    var current = document.getElementsByClassName("is-active");
-    current[0].classList.remove("is-active");
-    this.classList.add("is-active");
-  });
+function toggleBurger() {
+    const burger = document.getElementById('navbar-burger')
+    const menu = document.getElementById('navbar-menu')
+    if (burger.classList.contains('is-active')){
+        burger.classList.remove('is-active')
+        menu.classList.remove('is-active')
+    }
+    else {
+        burger.classList.add('is-active')
+        menu.classList.add('is-active')
+    }
 }
 
-//Active scroll navbar activation
+// Active scroll navbar activation
 const links = document.querySelectorAll('.navbar-item.header');
 const sections = document.querySelectorAll('section');
 
@@ -44,6 +45,7 @@ function changeLinkState() {
 changeLinkState();
 window.addEventListener('scroll', changeLinkState);
 
+// Event listener changes navbar from transparent to opaque when scrolling down
 window.addEventListener('scroll', function (e) {
         const nav = document.getElementById('navbar');
         const navitem = document.getElementById('nav-name');
@@ -60,11 +62,12 @@ window.addEventListener('scroll', function (e) {
             }
     });
 
+// Code for form submission and email using sendgrid
 var myform = $("form#myform");
 myform.submit(function(event){
 	event.preventDefault();
 
-  // Change to your service ID, or keep using the default service
+  // Using default service
   var service_id = "sendgrid";
   var template_id = "template_zwK1InUE";
 

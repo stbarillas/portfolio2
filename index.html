@@ -22,10 +22,16 @@
                 <a class="navbar-item" onclick="scrollToHome()">
                     <h5 class="header is-gray" id="nav-name">&ltS/B&gt</S></h5>
                 </a>
+                <a role="button" id="navbar-burger" class="navbar-burger" aria-label="menu" aria-expanded="false"
+                   onclick="toggleBurger()">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                </a>
             </div>
-            <div class="navbar-menu">
+            <div id="navbar-menu" class="navbar-menu">
                 <div class="navbar-end">
-                    <a class="navbar-item header " onclick="scrollToHome()">
+                    <a class="navbar-item header" onclick="scrollToHome()">
                         <span>Home</span>
                     </a>
                     <a class="navbar-item header " onclick="scrollToProjects()">
