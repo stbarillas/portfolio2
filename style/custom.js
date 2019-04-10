@@ -2,20 +2,24 @@
 function scrollToHome() {
     var x = document.getElementById("home");
     x.scrollIntoView({behavior: 'smooth'});
+    toggleBurger();
 }
 function scrollToProjects() {
     var x = document.getElementById("projects-section");
     x.scrollIntoView({behavior: 'smooth'});
+    toggleBurger();
 }
 function scrollToAbout() {
     var x = document.getElementById("about");
     x.scrollIntoView({behavior: 'smooth'});
+    toggleBurger();
 }
 function scrollToContact() {
     var x = document.getElementById("contact");
     x.scrollIntoView({behavior: 'smooth'});
+    toggleBurger();
 }
-
+// Toggles burger menu on and off
 function toggleBurger() {
     const burger = document.getElementById('navbar-burger')
     const menu = document.getElementById('navbar-menu')

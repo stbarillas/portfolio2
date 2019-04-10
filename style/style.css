@@ -96,13 +96,13 @@ body {
 .is-white {color: #FFFFFF; transition: all .25s;}
 .is-white:hover {color: #ffaf24}
 
+#navbar-burger{color: #ffaf24;}
 .navbar-item {
     color: #FFFFFF;
     font-weight: bold;
 }
 .navbar-item:hover {
     background: unset !important;
-    color: #ffaf24 !important;
 }
 .navbar-item.is-active span {
     color: #ffd83d!important;
@@ -111,6 +111,11 @@ body {
 .navbar-item:hover span {
     color: #ffd83d!important;
     border-bottom: 2px solid #ffaf24;
+}
+
+@media (max-width: 1087px) {
+	.navbar-menu {background-color: #4D525C}
+    .navbar-item.header.is-active {background: #4D525C!important;}
 }
 
 
