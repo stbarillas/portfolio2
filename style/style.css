@@ -179,6 +179,10 @@ body {
     max-height: 160px;
     margin: 10px;
 }
+#projects-button{
+    margin-top: 25px;
+    background: #ffaf24;
+}
 /*Contact Me Style*/
 .is-icon {
     background-color: black;
