@@ -57,6 +57,7 @@ body {
     padding-top: 100px;
 }
 
+
 /*Media queries for general use*/
 	/*Hides desktop elements when under 1281px wide */
 @media (max-width: 1280px) {
@@ -167,6 +168,12 @@ body {
 .set-card-width {
     max-width: 356px
 }
+
+/*Modal Style*/
+.modal-card {
+    width: 100vw;
+}
+
 
 /*About Me Style*/
 #about-text {

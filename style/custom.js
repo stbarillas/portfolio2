@@ -86,3 +86,17 @@ myform.submit(function(event){
     });
   return false;
 });
+
+// Toggles modal on and off
+function toggleModal() {
+    const modal = document.getElementById('projects-modal')
+    const html = document.getElementById('html')
+    if (modal.classList.contains('is-active')){
+        modal.classList.remove('is-active')
+        html.classList.remove('is-clipped')
+    }
+    else {
+        modal.classList.add('is-active')
+        html.classList.add('is-clipped')
+    }
+}
