@@ -83,36 +83,36 @@
                         <button id="projects-button" class="button has-depth" onclick="toggleModal()">See All Projects</button>
                     </div>
                 </div>
-                <div class="column is-centered" data-aos="fade-right">
-                    <a href="https://stbarillas.github.io/Art-Vandelay-Architecture/" target='_blank'>
+                <div class="column is-centered is-one-quarter" data-aos="fade-up">
+                    <a href="https://stbarillas.github.io/hone-react/" target='_blank'>
                         <div class="card is-round has-depth set-card-width">
                             <div class="card-image is-round">
                                 <figure class="image is-4by3 is-round">
-                                    <img class="is-round" src="static/projects/ArtVandalay.png" alt="Architect Site">
+                                    <img class="is-round" src="static/projects/React_Hone.png" alt="BTC Landing Page">
                                 </figure>
                             </div>
                             <div class="card-content">
                                 <div class="media">
                                     <div class="media-content">
-                                        <p class="title is-4">Art Vandalay Architecture</p>
+                                        <p class="title is-4">Historical Bitcoin Index</p>
                                     </div>
                                 </div>
                                 <div class="content">
-                                    <p1>Showcase architecture website</p1>
+                                    <p1>React powered SPA</p1>
                                 </div>
                                 <div class="tags">
+                                    <div class="tag">ReactJS</div>
                                     <div class="tag">Javascript</div>
                                     <div class="tag">HTML</div>
                                     <div class="tag">CSS</div>
-                                    <div class="tag">Bulma</div>
                                 </div>
                             </div>
                             <footer class="card-footer">
                                 <p class="card-footer-item">
-                                    <a href="https://stbarillas.github.io/Art-Vandelay-Architecture/" target='_blank'>Visit Website</a>
+                                    <a href="https://stbarillas.github.io/hone-react/" target='_blank'>Visit Website</a>
                                 </p>
                                 <p class="card-footer-item">
-                                    <a href="https://github.com/stbarillas/Art-Vandelay-Architecture" target="_blank">Source Code</a>
+                                    <a href="https://github.com/stbarillas/hone-react" target="_blank">Source Code</a>
                                 </p>
                             </footer>
                         </div>
@@ -196,18 +196,90 @@
                 </div>
             </div>
         </section>
+    <!--About Section-->
+        <section id="about" class="is-margined">
+            <div id='about-text' class='container has-text-centered'>
+                <h4 data-aos="fade-up" class="is-underlined">About Me</h4>
+                <img data-aos="fade-up" id="avatar" src="static/avatar/Webp.net-resizeimage.png" alt="avatar"><br>
+                <p1 data-aos="fade-up"> Hi! I'm Steve, a chemist by study who has always been drawn to technology, music, and science. My
+                    coding journey started with writing automation scripts in Python/Selenium at work. I've since built
+                    bots, tools, and most recently websites, to expand my skills.
+                </p1>
+            </div>
+        </section>
+    <!--Contact Section-->
+        <section id="contact" class="is-margined">
+            <form id="myform" method="post">
+                <div id='contact-text' class='container has-text-centered'>
+                    <h4 data-aos="fade-up" class="is-underlined">Contact Me</h4>
+                        <div data-aos="fade-down-right" class="field">
+                            <p class="control has-icons-left">
+                            <input id='name' class="input is-medium" type="text" placeholder="Name" name="from_name">
+                            <span class="icon is-small is-left">
+                                <i class="fas fa-user"></i>
+                            </span>
+                            </p>
+                        </div>
+                        <div data-aos="fade-down-left" class="field">
+                            <p class="control has-icons-left">
+                                <input id='email' class="input is-medium" type="email" placeholder="Email" name="reply_to">
+                                <span class="icon is-small is-left">
+                                    <i class="fas fa-envelope"></i>
+                                </span>
+                            </p>
+                        </div>
+                        <div data-aos="fade-down-right" class="field">
+                            <p class="control has-icons-left">
+                                <textarea id='message' class="textarea is-medium" type="text" placeholder="Message" rows="5" name="message_html"></textarea>
+                            </p>
+                        </div>
+                </div>
+                <div data-aos="fade-up" class="field is-grouped is-grouped-centered">
+                    <div class="control">
+                        <button class="button is-submit has-depth">
+                            Submit
+                        </button>
+                    </div>
+                </div>
+            </form>
+            <div class="has-text-centered">
+                <h3>Or</h3>
+                <h2 class="is-underlined"> Follow me here:</h2>
+                <a href="https://github.com/stbarillas" target='_blank'>
+                    <i class="fab fa-github is-icon has-depth github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/stevebarillas/" target='_blank'>
+                    <i class="fab fa-linkedin is-icon has-depth linkedin"></i>
+                </a>
+                <a href="https://twitter.com/thrllspike" target='_blank'>
+                    <i class="fab fa-twitter is-icon has-depth twitter"></i>
+                </a>
+            </div>
+        </section>
+    <!--Footer Section-->
+        <div id="footer-section" class="is-margined">
+            <div class="container has-text-centered">
+                <p class="credits">This website was crafted with <span role="img" aria-label="emoji">❤️</span><br>
+                    by Steve Barillas<br>using
+                    <a class="icons" href="https://bulma.io/" target="_blank" rel="noopener noreferrer">Bulma</a><br>
+                    Source code on <a class="icons" href="https://github.com/stbarillas/portfolio2" target="_blank"
+                                      rel="noopener noreferrer">
+                        Github</a>
+                </p>
+            </div>
+        </div>
     <!--Project Modal Section-->
         <div id="projects-modal" class="modal">
             <div class="modal-background"></div>
             <div class="modal-card">
-                <section class="modal-card-body">
+                <div class="modal-card-body">
                     <div class="columns set-project-width is-multiline">
-                        <div class="column is-centered is-one-quarter" data-aos="fade-up">
+                        <div class="column is-centered is-one-quarter">
                             <a href="https://stbarillas.github.io/hone-react/" target='_blank'>
                                 <div class="card is-round has-depth set-card-width">
                                     <div class="card-image is-round">
                                         <figure class="image is-4by3 is-round">
-                                            <img class="is-round" src="static/projects/Supra.png" alt="Supra Landing Page">
+                                            <img class="is-round" src="static/projects/React_Hone.png" alt="BTC Landing Page">
                                         </figure>
                                     </div>
                                     <div class="card-content">
@@ -237,7 +309,43 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="column is-centered is-one-quarter"  data-aos="fade-right">
+                        <div class="column is-centered is-one-quarter">
+                            <a href="https://stbarillas.github.io/supraLanding/" target='_blank'>
+                                <div class="card is-round has-depth set-card-width">
+                                    <div class="card-image is-round">
+                                        <figure class="image is-4by3 is-round">
+                                            <img class="is-round" src="static/projects/Supra.png" alt="Supra Landing Page">
+                                        </figure>
+                                    </div>
+                                    <div class="card-content">
+                                        <div class="media">
+                                            <div class="media-content">
+                                                <p class="title is-4">Toyota Motors Supra Launch</p>
+                                            </div>
+                                        </div>
+                                        <div class="content">
+                                            <p1>Recreation of the Toyota Supra launch page</p1>
+                                        </div>
+                                        <div class="tags">
+                                            <div class="tag">Javascript</div>
+                                            <div class="tag">HTML</div>
+                                            <div class="tag">CSS</div>
+                                            <div class="tag">CSS Grid</div>
+                                            <div class="tag">Bulma</div>
+                                        </div>
+                                    </div>
+                                    <footer class="card-footer">
+                                        <p class="card-footer-item">
+                                            <a href="https://stbarillas.github.io/supraLanding/" target='_blank'>Visit Website</a>
+                                        </p>
+                                        <p class="card-footer-item">
+                                            <a href="https://github.com/stbarillas/supraLanding" target="_blank">Source Code</a>
+                                        </p>
+                                    </footer>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="column is-centered is-one-quarter">
                             <a href="https://stbarillas.github.io/Art-Vandelay-Architecture/" target='_blank'>
                                 <div class="card is-round has-depth set-card-width">
                                     <div class="card-image is-round">
@@ -272,115 +380,7 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="column is-centered is-one-quarter" data-aos="fade-up">
-                            <a href="https://stbarillas.github.io/supraLanding/" target='_blank'>
-                                <div class="card is-round has-depth set-card-width">
-                                    <div class="card-image is-round">
-                                        <figure class="image is-4by3 is-round">
-                                            <img class="is-round" src="static/projects/Supra.png" alt="Supra Landing Page">
-                                        </figure>
-                                    </div>
-                                    <div class="card-content">
-                                        <div class="media">
-                                            <div class="media-content">
-                                                <p class="title is-4">Toyota Motors Supra Launch</p>
-                                            </div>
-                                        </div>
-                                        <div class="content">
-                                            <p1>Recreation of the Toyota Supra launch page</p1>
-                                        </div>
-                                        <div class="tags">
-                                            <div class="tag">Javascript</div>
-                                            <div class="tag">HTML</div>
-                                            <div class="tag">CSS</div>
-                                            <div class="tag">CSS Grid</div>
-                                            <div class="tag">Bulma</div>
-                                        </div>
-                                    </div>
-                                    <footer class="card-footer">
-                                        <p class="card-footer-item">
-                                            <a href="https://stbarillas.github.io/supraLanding/" target='_blank'>Visit Website</a>
-                                        </p>
-                                        <p class="card-footer-item">
-                                            <a href="https://github.com/stbarillas/supraLanding" target="_blank">Source Code</a>
-                                        </p>
-                                    </footer>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="column is-centered is-one-quarter" data-aos="fade-up">
-                            <a href="https://stbarillas.github.io/supraLanding/" target='_blank'>
-                                <div class="card is-round has-depth set-card-width">
-                                    <div class="card-image is-round">
-                                        <figure class="image is-4by3 is-round">
-                                            <img class="is-round" src="static/projects/Supra.png" alt="Supra Landing Page">
-                                        </figure>
-                                    </div>
-                                    <div class="card-content">
-                                        <div class="media">
-                                            <div class="media-content">
-                                                <p class="title is-4">Toyota Motors Supra Launch</p>
-                                            </div>
-                                        </div>
-                                        <div class="content">
-                                            <p1>Recreation of the Toyota Supra launch page</p1>
-                                        </div>
-                                        <div class="tags">
-                                            <div class="tag">Javascript</div>
-                                            <div class="tag">HTML</div>
-                                            <div class="tag">CSS</div>
-                                            <div class="tag">CSS Grid</div>
-                                            <div class="tag">Bulma</div>
-                                        </div>
-                                    </div>
-                                    <footer class="card-footer">
-                                        <p class="card-footer-item">
-                                            <a href="https://stbarillas.github.io/supraLanding/" target='_blank'>Visit Website</a>
-                                        </p>
-                                        <p class="card-footer-item">
-                                            <a href="https://github.com/stbarillas/supraLanding" target="_blank">Source Code</a>
-                                        </p>
-                                    </footer>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="column is-centered is-one-quarter" data-aos="fade-up">
-                            <a href="https://stbarillas.github.io/supraLanding/" target='_blank'>
-                                <div class="card is-round has-depth set-card-width">
-                                    <div class="card-image is-round">
-                                        <figure class="image is-4by3 is-round">
-                                            <img class="is-round" src="static/projects/Supra.png" alt="Supra Landing Page">
-                                        </figure>
-                                    </div>
-                                    <div class="card-content">
-                                        <div class="media">
-                                            <div class="media-content">
-                                                <p class="title is-4">Toyota Motors Supra Launch</p>
-                                            </div>
-                                        </div>
-                                        <div class="content">
-                                            <p1>Recreation of the Toyota Supra launch page</p1>
-                                        </div>
-                                        <div class="tags">
-                                            <div class="tag">Javascript</div>
-                                            <div class="tag">HTML</div>
-                                            <div class="tag">CSS</div>
-                                            <div class="tag">CSS Grid</div>
-                                            <div class="tag">Bulma</div>
-                                        </div>
-                                    </div>
-                                    <footer class="card-footer">
-                                        <p class="card-footer-item">
-                                            <a href="https://stbarillas.github.io/supraLanding/" target='_blank'>Visit Website</a>
-                                        </p>
-                                        <p class="card-footer-item">
-                                            <a href="https://github.com/stbarillas/supraLanding" target="_blank">Source Code</a>
-                                        </p>
-                                    </footer>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="column is-centered is-one-quarter" data-aos="fade-left">
+                        <div class="column is-centered is-one-quarter">
                             <a href="http://stbarillas.pythonanywhere.com/login/?next=/" target='_blank'>
                                  <div class="card is-round has-depth set-card-width">
                                     <div class="card-image is-round">
@@ -421,83 +421,11 @@
                             </a>
                         </div>
                     </div>
-                </section>
+                </div>
             </div>
                 <button class="modal-close is-large" aria-label="close" onclick="toggleModal()"></button>
             </div>
-    <!--About Section-->
-        <section id="about" class="is-margined">
-            <div id='about-text' class='container has-text-centered'>
-                <h4 data-aos="fade-up" class="is-underlined">About Me</h4>
-                <img data-aos="fade-up" id="avatar" src="static/avatar/Webp.net-resizeimage.png" alt="avatar"><br>
-                <p1 data-aos="fade-up"> Hi! I'm Steve, a chemist by study who has always been drawn to technology, music, and science. My
-                    coding journey started with writing automation scripts in Python/Selenium at work. I've since built
-                    bots, tools, and most recently websites, to expand my skills.
-                </p1>
-            </div>
-        </section>
 
-    <!--Contact Section-->
-        <section id="contact" class="is-margined">
-            <form id="myform" method="post">
-                <div id='contact-text' class='container has-text-centered'>
-                    <h4 data-aos="fade-up" class="is-underlined">Contact Me</h4>
-                        <div data-aos="fade-down-right" class="field">
-                            <p class="control has-icons-left">
-                            <input id='name' class="input is-medium" type="text" placeholder="Name" name="from_name">
-                            <span class="icon is-small is-left">
-                                <i class="fas fa-user"></i>
-                            </span>
-                            </p>
-                        </div>
-                        <div data-aos="fade-down-left" class="field">
-                            <p class="control has-icons-left">
-                                <input id='email' class="input is-medium" type="email" placeholder="Email" name="reply_to">
-                                <span class="icon is-small is-left">
-                                    <i class="fas fa-envelope"></i>
-                                </span>
-                            </p>
-                        </div>
-                        <div data-aos="fade-down-right" class="field">
-                            <p class="control has-icons-left">
-                                <textarea id='message' class="textarea is-medium" type="text" placeholder="Message" rows="5" name="message_html"></textarea>
-                            </p>
-                        </div>
-                </div>
-                <div data-aos="fade-up" class="field is-grouped is-grouped-centered">
-                    <div class="control">
-                        <button class="button is-submit has-depth">
-                            Submit
-                        </button>
-                    </div>
-                </div>
-            </form>
-            <div class="has-text-centered">
-                <h3>Or</h3>
-                <h2 class="is-underlined"> Stalk me here:</h2>
-                <a href="https://www.linkedin.com/in/stevebarillas/" target='_blank'>
-                    <i class="fab fa-linkedin is-icon has-depth linkedin"></i>
-                </a>
-                <a href="https://github.com/stbarillas" target='_blank'>
-                    <i class="fab fa-github is-icon has-depth github"></i>
-                </a>
-                <a href="https://twitter.com/thrllspike" target='_blank'>
-                    <i class="fab fa-twitter is-icon has-depth twitter"></i>
-                </a>
-            </div>
-        </section>
-    <!--Footer Section-->
-        <div id="footer-section" class="is-margined">
-            <div class="container has-text-centered">
-                <p class="credits">This website was crafted with <span role="img" aria-label="emoji">❤️</span><br>
-                    by Steve Barillas<br>using
-                    <a class="icons" href="https://bulma.io/" target="_blank" rel="noopener noreferrer">Bulma</a><br>
-                    Source code on <a class="icons" href="https://github.com/stbarillas/portfolio2" target="_blank"
-                                      rel="noopener noreferrer">
-                        Github</a>
-                </p>
-            </div>
-        </div>
         <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
         <script>
             AOS.init();
