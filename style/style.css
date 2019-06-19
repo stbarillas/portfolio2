@@ -173,6 +173,13 @@ body {
 .modal-card {
     width: 100vw;
 }
+.modal-card-body {
+    padding-top: 30px;
+}
+.modal-close {
+    background: black;
+    margin-top: 10px;
+}
 
 
 /*About Me Style*/
