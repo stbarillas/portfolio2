@@ -14,13 +14,9 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Steve Barillas</title>
-        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
         <link rel="stylesheet" href="css/main.css">
-        <link rel="stylesheet" href="style/grid.css">
-        <link rel="stylesheet" href="style/helper.css">
-        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-        <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
-        <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <script async src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+        <script async type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
         <link rel="stylesheet" href="style/style.css">
         <!--<link rel="stylesheet" href="style/debug.css">-->
     </head>
@@ -453,6 +449,33 @@
                 emailjs.init("user_2198E1z3DhrJC1Nio5O8D");
             })();
         </script>
-        <script type="text/javascript" src="style/custom.js"></script>
+<!--        <script type="text/javascript" src="style/custom.js"></script>-->
+
+<!--Script loads JS file only after -->
+        <script type="text/javascript">
+            function downloadJSAtOnload() {
+                var element = document.createElement("script");
+                element.src = "style/custom.js";
+                document.body.appendChild(element);
+            }
+            function downloadCSSAtOnload() {
+                var element = document.createElement("link");
+                element.rel= "stylesheet";
+                element.href = "https://unpkg.com/aos@next/dist/aos.css";
+                document.head.appendChild(element);
+            }
+            if (window.addEventListener) {
+                window.addEventListener("load", downloadJSAtOnload, false);
+                window.addEventListener("load", downloadCSSAtOnload, false);
+            }
+            else if (window.attachEvent) {
+                window.attachEvent("onload", downloadJSAtOnload);
+                window.attachEvent("onload", downloadCSSAtOnload);
+            }
+            else {
+                window.onload = downloadJSAtOnload;
+                window.onload = downloadCSSAtOnload;
+            }
+        </script>
     </body>
 </html>
