@@ -175,9 +175,12 @@ body {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	/*Flips image across x axis*/
-	/*-webkit-transform: scaleX(-1);*/
-	/*transform: scaleX(-1);*/
+}
+.hero-image-mobile {
+    background-image: url("https://res.cloudinary.com/djrjrfny8/image/upload/c_scale,f_auto,q_auto,w_1305/v1565911656/architecture-building-high-rise-137604_urpmpp.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
     /*Down Icon style and animation*/
 #down-button-mobile, #down-button-desktop {
