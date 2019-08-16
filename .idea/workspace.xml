@@ -4,7 +4,8 @@
     <list default="true" id="42993a33-ca39-4e0c-8546-7d3afbfeb535" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -97,7 +98,7 @@
       <workItem from="1560815436099" duration="1653000" />
       <workItem from="1560903889575" duration="306000" />
       <workItem from="1560923180861" duration="1430000" />
-      <workItem from="1565902820403" duration="10393000" />
+      <workItem from="1565902820403" duration="11878000" />
     </task>
     <servers />
   </component>
