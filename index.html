@@ -93,7 +93,7 @@
                         <div class="card is-round has-depth set-card-width">
                             <div class="card-image is-round">
                                 <figure class="image is-4by3 is-round">
-                                    <img class="is-round" src="https://res.cloudinary.com/djrjrfny8/image/upload/v1565977410/React_Hone_xxoqwr.webp" alt="BTC Landing Page">
+                                    <img class="is-round" src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="https://res.cloudinary.com/djrjrfny8/image/upload/v1565977410/React_Hone_xxoqwr.webp">
                                 </figure>
                             </div>
                             <div class="card-content">
@@ -132,7 +132,7 @@
                         <div class="card is-round has-depth set-card-width">
                             <div class="card-image is-round">
                                 <figure class="image is-4by3 is-round">
-                                    <img class="is-round" src="https://res.cloudinary.com/djrjrfny8/image/upload/v1565977410/Supra_v53afd.webp" alt="Supra Landing Page">
+                                    <img class="is-round" src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="https://res.cloudinary.com/djrjrfny8/image/upload/v1565977410/Supra_v53afd.webp">
                                 </figure>
                             </div>
                             <div class="card-content">
@@ -168,7 +168,7 @@
                          <div class="card is-round has-depth set-card-width">
                             <div class="card-image is-round">
                                 <figure class="image is-4by3 is-round">
-                                    <img class="is-round" src="http://res.cloudinary.com/djrjrfny8/image/upload/v1565977411/Instrument_acrzle.webp" alt="Queue Site">
+                                    <img class="is-round" src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="http://res.cloudinary.com/djrjrfny8/image/upload/v1565977411/Instrument_acrzle.webp">
                                 </figure>
                             </div>
                             <div class="card-content">
@@ -288,7 +288,7 @@
                                 <div class="card is-round has-depth set-card-width">
                                     <div class="card-image is-round">
                                         <figure class="image is-4by3 is-round">
-                                            <img class="is-round" src="https://res.cloudinary.com/djrjrfny8/image/upload/v1565977410/React_Hone_xxoqwr.webp" alt="BTC Landing Page">
+                                            <img class="is-round" src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="https://res.cloudinary.com/djrjrfny8/image/upload/v1565977410/React_Hone_xxoqwr.webp">
                                         </figure>
                                     </div>
                                     <div class="card-content">
@@ -327,7 +327,7 @@
                                 <div class="card is-round has-depth set-card-width">
                                     <div class="card-image is-round">
                                         <figure class="image is-4by3 is-round">
-                                            <img class="is-round" src="https://res.cloudinary.com/djrjrfny8/image/upload/v1565977410/Supra_v53afd.webp" alt="Supra Landing Page">
+                                            <img class="is-round" src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="https://res.cloudinary.com/djrjrfny8/image/upload/v1565977410/Supra_v53afd.webp">
                                         </figure>
                                     </div>
                                     <div class="card-content">
@@ -363,7 +363,7 @@
                                 <div class="card is-round has-depth set-card-width">
                                     <div class="card-image is-round">
                                         <figure class="image is-4by3 is-round">
-                                            <img class="is-round" src="http://res.cloudinary.com/djrjrfny8/image/upload/v1565977411/ArtVandalay_axpvnr.webp" alt="Architect Site">
+                                            <img class="is-round" src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="http://res.cloudinary.com/djrjrfny8/image/upload/v1565977411/ArtVandalay_axpvnr.webp">
                                         </figure>
                                     </div>
                                     <div class="card-content">
@@ -398,7 +398,7 @@
                                  <div class="card is-round has-depth set-card-width">
                                     <div class="card-image is-round">
                                         <figure class="image is-4by3 is-round">
-                                            <img class="is-round" src="http://res.cloudinary.com/djrjrfny8/image/upload/v1565977411/Instrument_acrzle.webp" alt="Queue Site">
+                                            <img class="is-round" class="is-round" src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="http://res.cloudinary.com/djrjrfny8/image/upload/v1565977411/Instrument_acrzle.webp">
                                         </figure>
                                     </div>
                                     <div class="card-content">
@@ -476,6 +476,15 @@
                 window.onload = downloadJSAtOnload;
                 window.onload = downloadCSSAtOnload;
             }
+        </script>
+        <script>
+            function init() {
+                var imgDefer = document.getElementsByTagName('img');
+                for (var i=0; i<imgDefer.length; i++) {
+                    if(imgDefer[i].getAttribute('data-src')) {
+                        imgDefer[i].setAttribute('src',imgDefer[i].getAttribute('data-src'));
+                    } } }
+            window.onload = init;
         </script>
     </body>
 </html>
