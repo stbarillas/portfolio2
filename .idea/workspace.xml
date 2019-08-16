@@ -2,8 +2,157 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="42993a33-ca39-4e0c-8546-7d3afbfeb535" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/style/cloudinary.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@optimizely/js-sdk-datafile-manager/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@optimizely/js-sdk-datafile-manager/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@optimizely/js-sdk-datafile-manager/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@optimizely/js-sdk-datafile-manager/lib/backoffController.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@optimizely/js-sdk-datafile-manager/lib/backoffController.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@optimizely/js-sdk-datafile-manager/lib/browserDatafileManager.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@optimizely/js-sdk-datafile-manager/lib/browserDatafileManager.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@optimizely/js-sdk-datafile-manager/lib/browserRequest.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@optimizely/js-sdk-datafile-manager/lib/browserRequest.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@optimizely/js-sdk-datafile-manager/lib/config.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@optimizely/js-sdk-datafile-manager/lib/config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@optimizely/js-sdk-datafile-manager/lib/datafileManager.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@optimizely/js-sdk-datafile-manager/lib/datafileManager.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@optimizely/js-sdk-datafile-manager/lib/eventEmitter.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@optimizely/js-sdk-datafile-manager/lib/eventEmitter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@optimizely/js-sdk-datafile-manager/lib/http.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@optimizely/js-sdk-datafile-manager/lib/http.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@optimizely/js-sdk-datafile-manager/lib/httpPollingDatafileManager.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@optimizely/js-sdk-datafile-manager/lib/httpPollingDatafileManager.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@optimizely/js-sdk-datafile-manager/lib/index.browser.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@optimizely/js-sdk-datafile-manager/lib/index.browser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@optimizely/js-sdk-datafile-manager/lib/index.node.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@optimizely/js-sdk-datafile-manager/lib/index.node.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@optimizely/js-sdk-datafile-manager/lib/nodeDatafileManager.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@optimizely/js-sdk-datafile-manager/lib/nodeDatafileManager.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@optimizely/js-sdk-datafile-manager/lib/nodeRequest.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@optimizely/js-sdk-datafile-manager/lib/nodeRequest.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@optimizely/js-sdk-datafile-manager/lib/staticDatafileManager.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@optimizely/js-sdk-datafile-manager/lib/staticDatafileManager.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@optimizely/js-sdk-datafile-manager/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@optimizely/js-sdk-event-processor/CHANGELOG.MD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@optimizely/js-sdk-event-processor/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@optimizely/js-sdk-event-processor/lib/eventDispatcher.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@optimizely/js-sdk-event-processor/lib/eventDispatcher.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@optimizely/js-sdk-event-processor/lib/eventProcessor.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@optimizely/js-sdk-event-processor/lib/eventProcessor.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@optimizely/js-sdk-event-processor/lib/eventQueue.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@optimizely/js-sdk-event-processor/lib/eventQueue.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@optimizely/js-sdk-event-processor/lib/events.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@optimizely/js-sdk-event-processor/lib/events.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@optimizely/js-sdk-event-processor/lib/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@optimizely/js-sdk-event-processor/lib/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@optimizely/js-sdk-event-processor/lib/managed.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@optimizely/js-sdk-event-processor/lib/managed.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@optimizely/js-sdk-event-processor/lib/pendingEventsDispatcher.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@optimizely/js-sdk-event-processor/lib/pendingEventsDispatcher.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@optimizely/js-sdk-event-processor/lib/pendingEventsStore.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@optimizely/js-sdk-event-processor/lib/pendingEventsStore.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@optimizely/js-sdk-event-processor/lib/v1/buildEventV1.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@optimizely/js-sdk-event-processor/lib/v1/buildEventV1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@optimizely/js-sdk-event-processor/lib/v1/v1EventProcessor.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@optimizely/js-sdk-event-processor/lib/v1/v1EventProcessor.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@optimizely/js-sdk-event-processor/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@optimizely/js-sdk-logging/CHANGELOG.MD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@optimizely/js-sdk-logging/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@optimizely/js-sdk-logging/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@optimizely/js-sdk-logging/lib/errorHandler.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@optimizely/js-sdk-logging/lib/errorHandler.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@optimizely/js-sdk-logging/lib/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@optimizely/js-sdk-logging/lib/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@optimizely/js-sdk-logging/lib/logger.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@optimizely/js-sdk-logging/lib/logger.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@optimizely/js-sdk-logging/lib/models.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@optimizely/js-sdk-logging/lib/models.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@optimizely/js-sdk-logging/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@optimizely/js-sdk-utils/CHANGELOG.MD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@optimizely/js-sdk-utils/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@optimizely/js-sdk-utils/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@optimizely/js-sdk-utils/lib/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@optimizely/js-sdk-utils/lib/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@optimizely/js-sdk-utils/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@optimizely/optimizely-sdk/CHANGELOG.MD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@optimizely/optimizely-sdk/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@optimizely/optimizely-sdk/dist/optimizely.browser.umd.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@optimizely/optimizely-sdk/dist/optimizely.browser.umd.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@optimizely/optimizely-sdk/lib/core/audience_evaluator/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@optimizely/optimizely-sdk/lib/core/audience_evaluator/index.tests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@optimizely/optimizely-sdk/lib/core/bucketer/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@optimizely/optimizely-sdk/lib/core/bucketer/index.tests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@optimizely/optimizely-sdk/lib/core/condition_tree_evaluator/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@optimizely/optimizely-sdk/lib/core/condition_tree_evaluator/index.tests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@optimizely/optimizely-sdk/lib/core/custom_attribute_condition_evaluator/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@optimizely/optimizely-sdk/lib/core/custom_attribute_condition_evaluator/index.tests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@optimizely/optimizely-sdk/lib/core/decision_service/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@optimizely/optimizely-sdk/lib/core/decision_service/index.tests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@optimizely/optimizely-sdk/lib/core/event_builder/event_helpers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@optimizely/optimizely-sdk/lib/core/event_builder/event_helpers.tests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@optimizely/optimizely-sdk/lib/core/event_builder/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@optimizely/optimizely-sdk/lib/core/event_builder/index.tests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@optimizely/optimizely-sdk/lib/core/notification_center/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@optimizely/optimizely-sdk/lib/core/project_config/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@optimizely/optimizely-sdk/lib/core/project_config/index.tests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@optimizely/optimizely-sdk/lib/core/project_config/project_config_manager.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@optimizely/optimizely-sdk/lib/core/project_config/project_config_manager.tests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@optimizely/optimizely-sdk/lib/core/project_config/project_config_schema.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@optimizely/optimizely-sdk/lib/index.browser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@optimizely/optimizely-sdk/lib/index.browser.tests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@optimizely/optimizely-sdk/lib/index.browser.umdtests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@optimizely/optimizely-sdk/lib/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@optimizely/optimizely-sdk/lib/index.node.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@optimizely/optimizely-sdk/lib/index.node.tests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@optimizely/optimizely-sdk/lib/optimizely/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@optimizely/optimizely-sdk/lib/optimizely/index.tests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@optimizely/optimizely-sdk/lib/plugins/error_handler/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@optimizely/optimizely-sdk/lib/plugins/error_handler/index.tests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@optimizely/optimizely-sdk/lib/plugins/event_dispatcher/index.browser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@optimizely/optimizely-sdk/lib/plugins/event_dispatcher/index.browser.tests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@optimizely/optimizely-sdk/lib/plugins/event_dispatcher/index.node.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@optimizely/optimizely-sdk/lib/plugins/event_dispatcher/index.node.tests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@optimizely/optimizely-sdk/lib/plugins/logger/enums.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@optimizely/optimizely-sdk/lib/plugins/logger/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@optimizely/optimizely-sdk/lib/plugins/logger/index.tests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@optimizely/optimizely-sdk/lib/tests/exit_on_unhandled_rejection.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@optimizely/optimizely-sdk/lib/tests/test_data.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@optimizely/optimizely-sdk/lib/utils/attributes_validator/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@optimizely/optimizely-sdk/lib/utils/attributes_validator/index.tests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@optimizely/optimizely-sdk/lib/utils/config_validator/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@optimizely/optimizely-sdk/lib/utils/config_validator/index.tests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@optimizely/optimizely-sdk/lib/utils/enums/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@optimizely/optimizely-sdk/lib/utils/event_tag_utils/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@optimizely/optimizely-sdk/lib/utils/event_tag_utils/index.tests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@optimizely/optimizely-sdk/lib/utils/event_tags_validator/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@optimizely/optimizely-sdk/lib/utils/event_tags_validator/index.tests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@optimizely/optimizely-sdk/lib/utils/fns/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@optimizely/optimizely-sdk/lib/utils/fns/index.tests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@optimizely/optimizely-sdk/lib/utils/json_schema_validator/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@optimizely/optimizely-sdk/lib/utils/json_schema_validator/index.tests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@optimizely/optimizely-sdk/lib/utils/string_value_validator/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@optimizely/optimizely-sdk/lib/utils/string_value_validator/index.tests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@optimizely/optimizely-sdk/lib/utils/user_profile_service_validator/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@optimizely/optimizely-sdk/lib/utils/user_profile_service_validator/index.tests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@optimizely/optimizely-sdk/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/murmurhash/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/murmurhash/murmurhash.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/murmurhash/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/promise-polyfill/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/promise-polyfill/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/promise-polyfill/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/promise-polyfill/dist/polyfill.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/promise-polyfill/dist/polyfill.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/promise-polyfill/lib/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/promise-polyfill/lib/polyfill.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/promise-polyfill/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/promise-polyfill/src/finally.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/promise-polyfill/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/promise-polyfill/src/polyfill.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/style.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,8 +164,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -97,7 +246,7 @@
       <workItem from="1560815436099" duration="1653000" />
       <workItem from="1560903889575" duration="306000" />
       <workItem from="1560923180861" duration="1430000" />
-      <workItem from="1565902820403" duration="4006000" />
+      <workItem from="1565902820403" duration="7281000" />
     </task>
     <servers />
   </component>
